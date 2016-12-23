@@ -5,7 +5,7 @@ public class ZipCodeSearch
 {
     public static void main(String[] args)
     {
-        In ifs = new In("/Users/Hennessy/Hash Tables/Separate Chaining/zip_code_database.csv");
+        In ifs = new In("/Users/Hennessy/Hash Tables/Separate Chaining/Zip Code Search/data/zip_code_database.csv");
         SeparateChainingHT table = new SeparateChainingHT(10007);
         // First line of file contains column display information
         // it is unnecessary -> throw away
